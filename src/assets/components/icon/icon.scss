@@ -1,0 +1,16 @@
+.icon {
+  border-radius: 15px;
+  display: flex;
+  padding: 10px;
+  text-decoration: none;
+  &:hover {
+    background-color: #ccb1ab;
+  }
+  i {
+    align-items: center;
+    display: flex;
+    height: 20px;
+    justify-content: center;
+    width: 20px;
+  }
+}

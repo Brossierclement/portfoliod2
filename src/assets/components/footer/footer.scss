@@ -1,0 +1,31 @@
+footer {
+  align-items: center;
+  border-top: 1px solid #4b516b;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  max-height: 54px;
+  min-height: 54px;
+  padding: 0 2rem;
+  .quote {
+    color: #f5eeea;
+    margin: 0;
+  }
+  .links {
+    display: flex;
+    gap: 10px;
+    a {
+      color: #f5eeea;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    .quote {
+      padding-top: 10px;
+      text-align: center;
+    }
+  }
+}

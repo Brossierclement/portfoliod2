@@ -1,0 +1,29 @@
+.button {
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  color: white;
+  display: flex;
+  font-weight: 600;
+  justify-content: space-evenly;
+  padding: 15px;
+  text-decoration: none;
+  width: 100px;
+}
+
+.button-projects {
+  color: #23243c;
+  background-color: #ccb1ab;
+  transition: background-color 0.3s ease-in;
+  &:hover {
+    background-color: #e0d3cf;
+  }
+}
+
+.button-github {
+  background-color: #4b516b;
+  transition: background-color 0.3s ease-in;
+  &:hover {
+    background-color: #737a97;
+  }
+}

@@ -1,0 +1,55 @@
+[
+    {
+        "id": 1,
+        "logo": "/images/coins-solid.svg",
+        "name": "ArgentBank",
+        "title": "Application bancaire, pour gérer ses transactions",
+        "goal": "Implémentez le front-end d'une application bancaire avec React",
+        "tags": ["React", "Redux"],
+        "link": "https://github.com/Brossierclement/projet-11-argentbank",
+        "examples": [
+            "/images/argentbank/argentBankOne.png",
+            "/images/argentbank/argentBankTwo.png",
+            "/images/argentbank/argentBankThree.png"],
+        "about": {
+            "titleOne": "Accédez simplement à vos transactions, depuis la plateforme ArgentBank",
+            "realization": "ArgentBank fait parti des projets que j'ai dû réaliser dans le cadre de ma formation a Openclassrooms dont l'objectif étant de passer d'une application statique à une application dynamique via React.",
+            "titleTwo": "Fonctionnalités",
+            "features": ["Se connecter", "Changer son nom d'utilisateur", "Accéder aux transactions", "Modifier les transactions"],
+            "titleThree": "Compétences",
+            "skills": "Pour mener à bien ce projet j'ai dû mettre mes connaissances de React en pratique ce qui d'une part m'a permis de les renforcer, de plus j'ai pu entamer mon apprentisage sur l'utilisation de Redux."
+        }
+    },
+    {
+        "id": 2,
+        "logo": "/images/house-solid.svg",
+        "name": "Kasa",
+        "title": "Application de location immobilière",
+        "goal": "Créez une application web de location immobilière avec React",
+        "tags": ["React"]
+    },
+    {
+        "id": 3,
+        "logo": "/images/camera-retro-solid.svg",
+        "name": "Sophie Bluel",
+        "title":"Site référentiel d'une photographe professionnelle",
+        "goal": "Créez une page web dynamique avec JavaScript",
+        "tags": ["Js"]
+    },
+    {
+        "id": 4,
+        "logo": "/images/screwdriver-wrench-solid.svg",
+        "name": "724events",
+        "title": "Site vitrine des événements proposés par l'agence",
+        "goal": "Débuggez le site d'une agence d'événementiel",
+        "tags": ["Js", "Bug"]
+    },
+    {
+        "id": 5,
+        "logo": "/images/heart-circle-plus-solid.svg",
+        "name": "Nina Carducci",
+        "title": "Site référentiel d'une photographe professionnelle",
+        "goal": "Optimisez le référencement d'un site de photographe",
+        "tags": ["Js", "Seo"]
+    }
+]

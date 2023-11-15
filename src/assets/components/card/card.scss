@@ -1,0 +1,36 @@
+.card {
+  align-items: center;
+  background-color: rgba(157, 143, 156, 0.3);
+  border: 1px solid #ccb1ab;
+  border-radius: 15px;
+  color: black;
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+  text-decoration: none;
+  .logo {
+    background-color: #ccb1ab;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    height: 50px;
+    padding: 10px;
+    width: 50px;
+  }
+  .informations {
+    color: #f5eeea;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+    justify-content: space-between;
+    h1,
+    p {
+      margin: 0;
+    }
+    .tags {
+      display: flex;
+      gap: 10px;
+      height: 20px;
+    }
+  }
+}
