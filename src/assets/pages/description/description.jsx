@@ -2,6 +2,7 @@ import "../description/description.scss";
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import Button from "../../components/button/button";
+import Tag from "../../components/tag/tag";
 
 function Description() {
   const { id } = useParams();
@@ -46,7 +47,11 @@ function Description() {
           <li key={i}>{item}</li>
         ))}
         <h1>{data.about.titleThree}</h1>
-        <p>{data.about.skills}</p>
+        <div className="tags">
+          {data.about.skills.map((item, i) => (
+            <Tag key={i} tags={item} />
+          ))}
+        </div>
       </section>
     </main>
   );

@@ -1,3 +1,5 @@
+@import "../../colors.scss";
+
 .description {
   align-items: center;
   display: flex;
@@ -12,20 +14,18 @@
     justify-content: center;
     width: 70%;
     .logo {
-      background-color: #ccb1ab;
       border-radius: 30px;
       box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
       height: 200px;
       object-fit: cover;
-      padding: 10px;
       width: 200px;
     }
     .name {
-      color: #ccb1ab;
+      color: $primary-color;
       font-size: 70px;
     }
     .title {
-      color: #9d8f9c;
+      color: $primary-color;
       font-size: 35px;
       text-align: center;
     }
@@ -38,7 +38,7 @@
     align-items: center;
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
     padding: 2rem 0;
     width: 70%;
     .image {
@@ -54,18 +54,22 @@
     gap: 10px;
     width: 70%;
     h1 {
-      color: #ccb1ab;
+      color: $tertiary-color;
       font-size: 35px;
     }
     p,
     li {
-      color: #9d8f9c;
+      color: $primary-color;
       font-size: 25px;
     }
     h1,
     li,
     P {
       margin: 0;
+    }
+    .tags {
+      display: flex;
+      gap: 10px;
     }
   }
 }

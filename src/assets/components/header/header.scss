@@ -1,7 +1,9 @@
+@import "../../colors.scss";
+
 header {
   align-items: center;
   backdrop-filter: blur(5px);
-  border-bottom: 1px solid #4b516b;
+  border-bottom: 1px solid white;
   box-sizing: border-box;
   display: flex;
   flex: 1;
@@ -11,13 +13,13 @@ header {
   position: fixed;
   width: 100%;
   .logo {
-    color: #f5eeea;
+    color: white;
   }
   .navigation {
     display: flex;
     gap: 10px;
     a {
-      color: #f5eeea;
+      color: white;
       text-decoration: none;
     }
   }

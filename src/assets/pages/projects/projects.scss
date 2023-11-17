@@ -1,27 +1,26 @@
 .projects {
   display: grid;
-  flex: 5;
   gap: 20px;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: repeat(3, 250px);
+  justify-content: center;
   padding: 5rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 855px) {
   .projects {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 275px);
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 635px) {
   .projects {
-    grid-template-columns: 1fr;
-    // grid-template-rows: 8rem 8rem 8rem;
+    grid-template-columns: repeat(1, 300px);
   }
 }
 
-@media (max-width: 425px) {
+@media (max-width: 365px) {
   .projects {
+    grid-template-columns: repeat(1, 90%);
     padding: 5rem 1rem;
   }
 }

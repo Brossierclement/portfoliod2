@@ -3,15 +3,15 @@ import "../tag/tag.scss";
 function Tag({ tags }) {
   // "dictionnaire"
   const color = {
-    // React: "rgb(131 166 175)",
-    // Redux: "rgb(145 130 169)",
-    // Html: "rgb(167 135 127",
-    // Css: "rgb(118 126 157)",
-    // JS: "rgb(169 164 125)",
+    React: "rgb(112, 156, 168)",
+    Redux: "rgb(153, 136, 180)",
+    Html: "rgb(224, 108, 79)",
+    Css: "rgb(100, 125, 216)",
+    Js: "rgb(184, 170, 63)",
   };
   return (
     <div style={{ backgroundColor: color[tags] }} className="tag">
-      <p>{tags}</p>
+      {tags}
     </div>
   );
 }

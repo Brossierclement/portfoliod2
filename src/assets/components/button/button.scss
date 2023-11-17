@@ -1,3 +1,5 @@
+@import "../../colors.scss";
+
 .button {
   align-items: center;
   border-radius: 30px;
@@ -12,16 +14,16 @@
 }
 
 .button-projects {
-  color: #23243c;
-  background-color: #ccb1ab;
+  color: white;
+  background-color: $tertiary-color;
   transition: background-color 0.3s ease-in;
   &:hover {
-    background-color: #e0d3cf;
+    background-color: $primary-color;
   }
 }
 
 .button-github {
-  background-color: #4b516b;
+  background-color: $quaternary-color;
   transition: background-color 0.3s ease-in;
   &:hover {
     background-color: #737a97;

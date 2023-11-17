@@ -11,13 +11,13 @@ function Home() {
         <p className="job">Intégrateur web & fan de jeux vidéo</p>
         <nav className="projects-github">
           <Button
-            to={""}
+            to={"/projects"}
             logo={<i className="fa-regular fa-folder-open fa-lg"></i>}
             className={"button-projects"}
             title={"Projets"}
           />
           <Button
-            to={""}
+            to={"https://github.com/Brossierclement"}
             logo={<i className="fa-brands fa-github fa-lg"></i>}
             className={"button-github"}
             title={"Github"}

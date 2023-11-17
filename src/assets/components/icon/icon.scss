@@ -1,10 +1,12 @@
+@import "../../colors.scss";
+
 .icon {
   border-radius: 15px;
   display: flex;
   padding: 10px;
   text-decoration: none;
   &:hover {
-    background-color: #ccb1ab;
+    background-color: rgba(255, 255, 255, 0.3);
   }
   i {
     align-items: center;

@@ -5,11 +5,13 @@ import Home from "./assets/pages/home/home";
 import Projects from "./assets/pages/projects/projects";
 import Description from "./assets/pages/description/description";
 import Footer from "./assets/components/footer/footer";
+import video from "./assets/videos/cyberpunk.mp4";
 
 function App() {
   return (
     <BrowserRouter>
       <Header />
+      <video className="vod" src={video} autoPlay loop muted></video>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
