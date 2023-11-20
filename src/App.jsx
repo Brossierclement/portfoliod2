@@ -4,6 +4,7 @@ import Header from "./assets/components/header/header";
 import Home from "./assets/pages/home/home";
 import Projects from "./assets/pages/projects/projects";
 import Description from "./assets/pages/description/description";
+import About from "./assets/pages/about/about";
 import Footer from "./assets/components/footer/footer";
 import video from "./assets/videos/cyberpunk.mp4";
 

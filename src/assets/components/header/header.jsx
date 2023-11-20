@@ -9,7 +9,7 @@ function Header() {
       </Link>
       <nav className="navigation">
         <Link to={"/projects"}>Projets</Link>
-        <Link to={""}>À propos</Link>
+        <Link to={"/about"}>À propos</Link>
       </nav>
     </header>
   );
