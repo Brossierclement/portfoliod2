@@ -1,0 +1,53 @@
+@import "../../colors.scss";
+
+.service {
+  align-items: center;
+  background-color: rgba(28, 28, 31, 0.5);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.514) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 250px;
+  padding: 35px;
+  .logo {
+    background-color: rgba(88, 88, 97, 0.5);
+    border-radius: 50%;
+    height: 50px;
+    padding: 15px;
+    width: 50px;
+    .logo-svg {
+      fill: #ff0000;
+      height: 100%;
+      object-fit: contain;
+      width: 100%;
+    }
+  }
+  .service-title {
+    color: $primary-color;
+    font-size: 24px;
+  }
+  .service-description {
+    color: $secondary-color;
+    font-size: 16px;
+    text-align: center;
+  }
+  .service-title,
+  .service-description {
+    margin: 0;
+  }
+  .container-language {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 10px;
+    height: 50%;
+    justify-content: space-evenly;
+    width: 100%;
+    .service-language {
+      height: 50px;
+    }
+  }
+}

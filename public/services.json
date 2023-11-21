@@ -1,0 +1,21 @@
+[
+    {
+        "id": 1,
+        "logo": "/images/laptop-code-solid.svg",
+        "title": "Intégrateur Web",
+        "description": "C'est avec plaisir que je m'occupe de l'intégration web, en utilisant les langages HTML, CSS et React. Mon objectif est de créer des interfaces simples et réactives pour offrir une expérience utilisateur fluide sur différents appareils"
+    },
+    {
+        "id": 2,
+        "logo": "/images/code-solid.svg",
+        "title": "Langages",
+        "language": ["/images/languages/html5.svg", "/images/languages/css3.svg", "/images/languages/js.svg", "/images/languages/react.svg"]
+    },
+    {
+        "id": 3,
+        "logo": "/images/toolbox-solid.svg",
+        "title": "Bonus",
+        "description": "Je maîtrise également des logiciels tels que Photoshop et DavinciResolve."
+
+    }
+]
