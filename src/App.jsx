@@ -11,7 +11,7 @@ function App() {
   return (
     <BrowserRouter>
       <Header />
-      <video className="vod" src={video} autoPlay loop muted></video>
+      <video className="vod" src={video} muted></video>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/projects" element={<Projects />} />
