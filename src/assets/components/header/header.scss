@@ -17,11 +17,21 @@ header {
     color: white;
   }
   .navigation {
+    align-items: center;
     display: flex;
     gap: 10px;
     a {
       color: white;
       text-decoration: none;
+      cursor: pointer;
+    }
+    .button {
+      padding: 5px;
+      min-width: 50px;
+    }
+    .my-projects {
+      border-left: 1px solid $primary-color;
+      padding-left: 10px;
     }
   }
 }

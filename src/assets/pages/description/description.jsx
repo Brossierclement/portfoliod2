@@ -43,9 +43,11 @@ function Description() {
         <h1>{data.about.titleOne}</h1>
         <p>{data.about.realization}</p>
         <h1>{data.about.titleTwo}</h1>
-        {data.about.features.map((item, i) => (
-          <li key={i}>{item}</li>
-        ))}
+        <ul>
+          {data.about.features.map((item, i) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>
         <h1>{data.about.titleThree}</h1>
         <div className="tags">
           {data.about.skills.map((item, i) => (

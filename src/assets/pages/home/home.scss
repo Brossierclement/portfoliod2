@@ -11,7 +11,7 @@
   gap: 100px;
   margin: auto;
   max-width: 1440px;
-  padding: 0 1rem;
+  padding: 0 1rem 5rem 1rem;
   .profile {
     align-items: center;
     display: flex;
@@ -22,15 +22,19 @@
     padding-top: 100px;
     .me {
       border-radius: 50%;
+      box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px,
+        rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px,
+        rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px,
+        rgba(0, 0, 0, 0.07) 0px 32px 64px;
       width: 15rem;
     }
     .name {
       animation: lights 5s 750ms linear infinite;
-      color: #f5eeea;
+      color: $primary-color;
       font-size: 40px;
     }
     .job {
-      color: white;
+      color: $primary-color;
       font-size: 20px;
     }
     .name,
@@ -47,14 +51,14 @@
     align-items: center;
     flex: 1;
     .mouse {
-      border: 2px solid white;
+      border: 2px solid $primary-color;
       border-radius: 15px;
       height: 34px;
       position: relative;
       width: 22px;
       .wheel {
         animation: scroll-down 3s 0s ease-in-out infinite;
-        background-color: white;
+        background-color: $primary-color;
         border-radius: 15px;
         height: 4px;
         left: 0;
@@ -72,15 +76,20 @@
     flex-direction: column;
     gap: 20px;
     max-width: 1024px;
+    padding-top: 75px;
     .about {
       display: flex;
+      flex-direction: column;
       gap: 10px;
       width: 100%;
       .introduction-description {
-        background-color: rgba(28, 28, 31, 0.6);
+        background-color: rgba(28, 28, 31, 0.5);
         border-radius: 15px;
-        color: white;
-        flex: 2;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px,
+          rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px,
+          rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px,
+          rgba(0, 0, 0, 0.07) 0px 32px 64px;
+        color: $secondary-color;
         font-size: 16px;
         line-height: 20px;
         margin: 0;
@@ -91,20 +100,10 @@
       }
       .introduction-image {
         border-radius: 15px;
-        flex: 1;
         height: 100%;
         max-height: 200px;
         object-fit: cover;
         width: 100%;
-      }
-    }
-    @media (max-width: 768px) {
-      .about {
-      }
-    }
-    @media (max-width: 425px) {
-      .about {
-        flex-direction: column-reverse;
       }
     }
   }
@@ -113,7 +112,11 @@
     flex-direction: column;
     gap: 20px;
     max-width: 1024px;
+    padding-top: 75px;
     width: 100%;
+    .service-description {
+      color: $secondary-color;
+    }
     .competences {
       display: flex;
       flex-wrap: wrap;
@@ -122,7 +125,6 @@
       .container-language {
         display: flex;
         .service-language {
-          filter: drop-shadow(5px 15px 20px #000000);
           height: 50px;
           width: 50px;
         }
@@ -142,7 +144,7 @@
       text-align: center;
     }
     .main-titled {
-      color: $secondary-color;
+      color: $primary-color;
       font-size: 25px;
       text-align: center;
     }

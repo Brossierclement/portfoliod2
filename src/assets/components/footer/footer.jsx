@@ -7,6 +7,7 @@ function Footer() {
       <p className="quote">
         "For my kind, the true question is, what is worth figthing for"
       </p>
+      <a></a>
       <nav className="links">
         <Icon to={""} logo={<i className="fa-brands fa-twitter fa-lg"></i>} />
         <Icon to={""} logo={<i className="fa-brands fa-linkedin fa-lg"></i>} />

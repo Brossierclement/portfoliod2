@@ -1,5 +1,4 @@
 import "../home/home.scss";
-import { useInView } from "react-intersection-observer";
 import { useState, useEffect } from "react";
 import profile from "../../images/profile.jpg";
 import Button from "../../components/button/button";
@@ -7,11 +6,6 @@ import Service from "../../components/service/service";
 import Carousel from "../../components/carousel/carousel";
 
 function Home() {
-  // const { ref: profileRef, inView: profileIsVisible } = useInView();
-  // const { ref: myRef, inView: myElementIsVisible } = useInView();
-  // const { ref: aboutRef, inView: aboutIsVisible } = useInView();
-  // const { ref: skills, inView: skillsIsVisible } = useInView();
-
   const [data, setData] = useState([]);
   const getData = () => {
     fetch("/services.json", {
@@ -32,7 +26,7 @@ function Home() {
   }, []);
 
   return (
-    <main className="home">
+    <main id="top" className="home">
       <div className="profile">
         <img className="me" src={profile} alt="clement" />
         <h1 className="name">Clément Brossier</h1>
@@ -58,12 +52,12 @@ function Home() {
         </div>
       </div>
 
-      <div className="introduction">
-        <section className="title">
-          <h1 className="main-title">À propos</h1>
-          <p className="main-titled">Qui suis-je?</p>
-        </section>
+      <div id="about" className="introduction">
         <div className="about">
+          <section className="title">
+            <h1 className="main-title">À propos</h1>
+            <p className="main-titled">Qui suis-je?</p>
+          </section>
           <p className="introduction-description">
             Après différentes expériences dans le monde professionnel j'ai
             décidé de faire une reconversion dans le domaine du Web grâce à la
@@ -77,10 +71,9 @@ function Home() {
             Désormais je recherche un emploi ou un apprentissage afin de
             parfaire et détailler mes connaissances.
           </p>
-          <img className="introduction-image" src={profile} />
         </div>
       </div>
-      <div className="services">
+      <div id="services" className="services">
         <section className="title">
           <h1 className="main-title">Services</h1>
           <p className="main-titled">Mes compétences</p>
