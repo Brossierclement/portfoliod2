@@ -1,10 +1,10 @@
 import "../header/header.scss";
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 import Button from "../button/button";
-import file from "../../../../public/images/file-regular.svg";
 
 function Header() {
+  const location = useLocation();
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
     if (element) {
@@ -29,13 +29,16 @@ function Header() {
       </Link>
       <nav className="navigation">
         <Button
-          // logo={<i class="fa-regular fa-file-pdf"></i>}
           className={"button-github"}
           title={"CV"}
           onClick={handleDownload}
         />
-        <a onClick={() => scrollToSection("about")}>À propos</a>
-        <a onClick={() => scrollToSection("services")}>Services</a>
+        {location.pathname === "/" && (
+          <>
+            <a onClick={() => scrollToSection("about")}>À propos</a>
+            <a onClick={() => scrollToSection("services")}>Services</a>
+          </>
+        )}
         <Link className="my-projects" to={"/projects"}>
           Projets
         </Link>
