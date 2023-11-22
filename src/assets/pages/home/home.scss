@@ -119,8 +119,8 @@
     @media (max-width: 425px) {
       .about {
         grid-template-areas:
-          "a a c c"
-          "b b b b";
+          "a a c"
+          "b b b";
         .title {
           display: flex;
           flex-direction: column;
