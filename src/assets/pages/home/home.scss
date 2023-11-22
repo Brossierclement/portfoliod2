@@ -79,6 +79,9 @@
         "a a a"
         "b b c";
       width: 100%;
+      .title {
+        grid-area: a;
+      }
       .introduction-description {
         background-color: rgba(28, 28, 31, 0.6);
         border-radius: 15px;
