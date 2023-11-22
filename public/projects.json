@@ -33,7 +33,7 @@
             "/images/kasa/kasa-two.png",
             "/images/kasa/kasa-three.png"],
         "about": {
-            "titleOne": "Trouver une location n'a jamais était aussi simple",
+            "titleOne": "Trouver une location n'a jamais été aussi simple",
             "realization": "Mon premier projet en React, Kasa, est une application de location immobilière offrant aux utilisateurs une interface intuitive pour explorer des locations. J'ai créé une expérience utilisateur fluide permettant d'accéder facilement aux informations détaillées, notamment la navigation dans les photos et l'utilisation des fonctionnalités de collapsible pour des informations supplémentaires. Mon implication dans Kasa a été cruciale pour acquérir des compétences solides en développement React tout en contribuant à la création d'une application conviviale pour la recherche de locations immobilières.",
             "titleTwo": "Fonctionnalités",
             "features": ["- Accéder aux locations", "- Naviguer dans les photos", "- Agir sur les collapse"],
@@ -54,7 +54,7 @@
             "/images/sophie/sophie-two.png",
             "/images/sophie/sophie-three.png"],
         "about": {
-            "titleOne": "Trouver une location n'a jamais était aussi simple",
+            "titleOne": "Partager ses clichés facilement et en un instant",
             "realization": "Mon premier projet Javascript, dédié à Madame Sophie Bluel, est un site de photographie permettant aux visiteurs de visualiser et filtrer les photos par catégories. Madame Sophie peut se connecter pour gérer son portfolio en ajoutant ou supprimant des photos via une modale conviviale. Ce projet a été une occasion stimulante de mettre en pratique mes compétences naissantes en Javascript, en créant une solution fonctionnelle et esthétique pour répondre aux besoins spécifiques de Madame Sophie Bluel en tant que photographe.",
             "titleTwo": "Fonctionnalités",
             "features": ["- Trier les photos par catégories", "- Se connecter", "- Accéder à la modale pour gérer les photos", "- Ajouter et supprimer d'images"],
@@ -75,7 +75,7 @@
             "/images/events/events-two.png",
             "/images/events/events-three.png"],
         "about": {
-            "titleOne": "Trouver une location n'a jamais était aussi simple",
+            "titleOne": "Une multitude d'événements à votre disposition",
             "realization": "J'ai travaillé avec l'agence 724Events sur un projet de débogage en Javascript, résolvant plusieurs problèmes critiques. J'ai corrigé un dysfonctionnement dans le slider, assurant une transition fluide des images. Les problèmes de filtrage et de dates incorrectes ont été résolus, offrant une recherche précise. De plus, j'ai ajouté un message de confirmation pour le formulaire d'envoi. Enfin, j'ai résolu l'absence d'images dans la section Dernière Prestation. Ce projet a renforcé ma compétence en débogage dans des environnements Javascript complexes.",
             "titleTwo": "Fonctionnalités",
             "features": ["- Manipuler le slider", "- Naviguer via les raccourcis", "- Trier les événements", "- Envoyer un message avec confirmation"],
@@ -96,9 +96,9 @@
             "/images/nina/nina-two.png",
             "/images/nina/nina-three.png"],
         "about": {
-            "titleOne": "Trouver une location n'a jamais était aussi simple",
+            "titleOne": "Trouver sa place sur le web grâce au score SEO",
             "realization": "Pour le site de la photographe professionnelle Nica Carducci, j'ai entrepris un projet visant à optimiser le score Lighthouse et améliorer la visibilité SEO. J'ai revu le format des images, amélioré l'accessibilité et optimisé la navigation pour une expérience utilisateur plus fluide. En mettant en œuvre diverses balises meta, j'ai rendu le lien du site plus attrayant pour les moteurs de recherche, renforçant ainsi sa présence en ligne. Ces ajustements stratégiques ont contribué à augmenter le score SEO du site, assurant une meilleure visibilité pour les clichés et prestations de Nica Carducci.- ",
-            "titleTwo": "Fonctionnalités",
+            "titleTwo": "Tâches :",
             "features": ["- Optimisation du format des images", "- Utilisation de balises meta", "- Rapport Lighthouse", "- Accéssibilité utilisateur", "- Respect de la sémantique"],
             "titleThree": "Compétences",
             "skills": ["Html", "Css", "Js", "Seo"]
