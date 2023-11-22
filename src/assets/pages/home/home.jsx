@@ -59,11 +59,11 @@ function Home() {
       </div>
 
       <div className="introduction">
+        <section className="title">
+          <h1 className="main-title">À propos</h1>
+          <p className="main-titled">Qui suis-je?</p>
+        </section>
         <div className="about">
-          <section className="title">
-            <h1 className="main-title">À propos</h1>
-            <p className="main-titled">Qui suis-je?</p>
-          </section>
           <p className="introduction-description">
             Après différentes expériences dans le monde professionnel j'ai
             décidé de faire une reconversion dans le domaine du Web grâce à la
