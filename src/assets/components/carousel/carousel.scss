@@ -13,7 +13,7 @@
     flex-direction: row;
     gap: 20px;
     max-width: 1024px;
-    min-height: 350px;
+    min-height: 425px;
     padding: 30px;
     position: relative;
     .carousel-images {
@@ -94,9 +94,35 @@
   .carousel-container {
     .carousel {
       flex-direction: column;
-      min-height: 550px;
+      min-height: 610px;
       .carousel-images {
         width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .carousel-container {
+    .carousel {
+      min-height: 610px;
+      .carousel-images {
+        .image {
+          height: 250px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .carousel-container {
+    .carousel {
+      min-height: 705px;
+      .carousel-images {
+        .image {
+          height: 175px;
+        }
       }
     }
   }
@@ -105,6 +131,7 @@
 @media (max-width: 375px) {
   .carousel-container {
     .carousel {
+      min-height: 775px;
       .carousel-images {
         .image {
           height: 150px;

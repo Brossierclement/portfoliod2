@@ -251,3 +251,14 @@
     }
   }
 }
+
+@media (max-width: 374px) {
+  .home {
+    .introduction {
+      padding-top: 100px;
+    }
+    .services {
+      padding-top: 100px;
+    }
+  }
+}
