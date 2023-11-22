@@ -73,6 +73,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    max-width: 1024px;
     .about {
       display: grid;
       gap: 10px;
@@ -80,23 +81,6 @@
         "a a a"
         "b b c";
       width: 100%;
-      .title {
-        grid-area: a;
-        .introduction-title {
-          color: $secondary-color;
-          font-size: 35px;
-          text-align: center;
-        }
-        .introduction-titled {
-          color: $secondary-color;
-          font-size: 35px;
-          text-align: center;
-        }
-        .introduction-title,
-        .introduction-titled {
-          margin: 0;
-        }
-      }
       .introduction-description {
         background-color: rgba(28, 28, 31, 0.6);
         border-radius: 15px;
@@ -148,24 +132,8 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
+    max-width: 1024px;
     width: 100%;
-    .title {
-      grid-area: a;
-      .services-title {
-        color: $secondary-color;
-        font-size: 35px;
-        text-align: center;
-      }
-      .services-titled {
-        color: $secondary-color;
-        font-size: 35px;
-        text-align: center;
-      }
-      .services-title,
-      .services-titled {
-        margin: 0;
-      }
-    }
     .competences {
       display: flex;
       flex-wrap: wrap;
@@ -179,6 +147,28 @@
           width: 50px;
         }
       }
+    }
+  }
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .title {
+    grid-area: a;
+    .main-title {
+      color: $secondary-color;
+      font-size: 20px;
+      text-align: center;
+    }
+    .main-titled {
+      color: $secondary-color;
+      font-size: 25px;
+      text-align: center;
+    }
+    .main-title,
+    .main-titled {
+      margin: 0;
     }
   }
 }

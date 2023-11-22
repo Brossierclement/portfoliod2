@@ -1,0 +1,86 @@
+@import "../../colors.scss";
+
+.carousel-container {
+  padding-bottom: 50px;
+  .carousel {
+    background-color: rgba(28, 28, 31, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+      rgba(0, 0, 0, 0.3) 0px 7px 13px -3px,
+      rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    max-width: 1024px;
+    overflow: hidden;
+    padding: 20px;
+    .carousel-images {
+      flex: 1;
+      .image {
+        background-color: lavenderblush;
+        border-radius: 15px;
+        height: 300px;
+        object-fit: cover;
+        width: 100%;
+      }
+    }
+    .carousel-infos {
+      align-items: flex-start;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      justify-content: space-between;
+      position: relative;
+      .carousel-title {
+        color: $primary-color;
+      }
+      .carousel-titled {
+        color: $secondary-color;
+      }
+      .carousel-title,
+      .carousel-titled,
+      .index {
+        margin: 0;
+      }
+      .carousel-tags {
+        display: flex;
+        gap: 10px;
+      }
+      .button-github {
+        font-size: 15px;
+        padding: 10px;
+      }
+      .index {
+        bottom: 0;
+        color: $primary-color;
+        font-weight: 600;
+        position: absolute;
+        text-align: end;
+        width: 100%;
+      }
+    }
+  }
+  .carousel-button {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding-top: 20px;
+    button {
+      background-color: transparent;
+      border: none;
+      cursor: pointer;
+      img {
+        width: 25px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .carousel-container {
+    .carousel {
+      flex-direction: column;
+    }
+  }
+}

@@ -4,25 +4,13 @@ import { useState, useEffect } from "react";
 import profile from "../../images/profile.jpg";
 import Button from "../../components/button/button";
 import Service from "../../components/service/service";
+import Carousel from "../../components/carousel/carousel";
 
 function Home() {
-  const { ref: profileRef, inView: profileIsVisible } = useInView();
-  const { ref: myRef, inView: myElementIsVisible } = useInView();
-  const { ref: aboutRef, inView: aboutIsVisible } = useInView();
-  const { ref: skills, inView: skillsIsVisible } = useInView();
-
-  // const myRef = useRef();
-  // const [myElementIsVisible, setMyElementIsVisible] = useState();
-  // console.log("myElementIsVisible", myElementIsVisible);
-  // useEffect(() => {
-  //   console.log("myRef", myRef.current);
-  //   const observer = new IntersectionObserver((entries) => {
-  //     const entry = entries[0];
-  //     setMyElementIsVisible(entry.isIntersecting);
-  //     console.log("entry", entry);
-  //   });
-  //   observer.observe(myRef.current);
-  // }, []);
+  // const { ref: profileRef, inView: profileIsVisible } = useInView();
+  // const { ref: myRef, inView: myElementIsVisible } = useInView();
+  // const { ref: aboutRef, inView: aboutIsVisible } = useInView();
+  // const { ref: skills, inView: skillsIsVisible } = useInView();
 
   const [data, setData] = useState([]);
   const getData = () => {
@@ -45,12 +33,7 @@ function Home() {
 
   return (
     <main className="home">
-      <div
-        ref={profileRef}
-        className={`profile ${
-          profileIsVisible ? "animatedElementDelayTwo" : ""
-        }`}
-      >
+      <div className="profile">
         <img className="me" src={profile} alt="clement" />
         <h1 className="name">Clément Brossier</h1>
         <p className="job">Intégrateur web & fan de jeux vidéo</p>
@@ -77,21 +60,11 @@ function Home() {
 
       <div className="introduction">
         <div className="about">
-          <section
-            ref={myRef}
-            className={`title ${
-              myElementIsVisible ? "animatedElementDelayOne" : ""
-            }`}
-          >
-            <h1 className="introduction-title">À propos</h1>
-            <p className="introduction-titled">Qui suis-je?</p>
+          <section className="title">
+            <h1 className="main-title">À propos</h1>
+            <p className="main-titled">Qui suis-je?</p>
           </section>
-          <p
-            ref={aboutRef}
-            className={`introduction-description ${
-              aboutIsVisible ? "animatedElementDelayThree" : ""
-            }`}
-          >
+          <p className="introduction-description">
             Après différentes expériences dans le monde professionnel j'ai
             décidé de faire une reconversion dans le domaine du Web grâce à la
             formation d'Intégrateur Web d'
@@ -104,34 +77,26 @@ function Home() {
             Désormais je recherche un emploi ou un apprentissage afin de
             parfaire et détailler mes connaissances.
           </p>
-          <img
-            className={`introduction-image ${
-              aboutIsVisible ? "animatedElementDelayTwo" : ""
-            }`}
-            src={profile}
-          />
+          <img className="introduction-image" src={profile} />
         </div>
       </div>
       <div className="services">
-        <section
-          ref={skills}
-          className={`title ${
-            skillsIsVisible ? "animatedElementDelayOne" : ""
-          }`}
-        >
-          <h1 className="services-title">Services</h1>
-          <p className="services-titled">Mes compétences</p>
+        <section className="title">
+          <h1 className="main-title">Services</h1>
+          <p className="main-titled">Mes compétences</p>
         </section>
-
-        <div
-          className={`competences ${
-            skillsIsVisible ? "animatedElementDelayThree" : ""
-          }`}
-        >
+        <div className="competences">
           {data.map((item) => (
             <Service key={item.id} data={item} />
           ))}
         </div>
+      </div>
+      <div className="carousel">
+        <section className="title">
+          <h1 className="main-title">Projets</h1>
+          <p className="main-titled">Mes derniers projets</p>
+        </section>
+        <Carousel />
       </div>
     </main>
   );
