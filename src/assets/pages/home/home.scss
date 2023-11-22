@@ -8,6 +8,7 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  gap: 100px;
   margin: auto;
   max-width: 1440px;
   padding: 0 1rem;
@@ -18,7 +19,6 @@
     gap: 15px;
     height: 100vh;
     justify-content: center;
-    padding: 95px 0;
     .me {
       border-radius: 50%;
       width: 15rem;
@@ -73,7 +73,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 75px 0;
     .about {
       display: grid;
       gap: 10px;
@@ -149,7 +148,6 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 75px 0;
     width: 100%;
     .title {
       grid-area: a;
