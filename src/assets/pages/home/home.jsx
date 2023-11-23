@@ -68,6 +68,23 @@ function Home() {
             que je vais prochainement terminer.
             <br />
             <br />
+            À 25 ans, passionné d'informatique et de jeux vidéo, le monde du web
+            m'a toujours intrigué. C'était l'une de mes premières idées
+            d'orientation. Ma curiosité insatiable et mon engagement font de moi
+            quelqu'un prêt à plonger dans le monde dynamique de la technologie.
+            <br />
+            <br />
+            La formation d'intégrateur web d'{" "}
+            <a href="https://openclassrooms.com/fr/" target="blank">
+              OpenClassrooms
+            </a>{" "}
+            , sur 9 mois à distance, propose 12 projets concrets. De
+            l'apprentissage du HTML/CSS, elle évolue vers JavaScript et React.
+            Les apprenants développent compétences en optimisation, débogage, et
+            travaillent sur des projets thématiques. Une immersion complète dans
+            le web, préparant aux défis professionnels avec un portfolio solide.
+            <br />
+            <br />
             Désormais je recherche un emploi ou un apprentissage afin de
             parfaire et détailler mes connaissances.
           </p>
