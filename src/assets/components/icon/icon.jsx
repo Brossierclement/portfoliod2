@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom";
 import "./icon.scss";
 
-function Icon({ to, logo }) {
+function Icon({ logo, link }) {
   return (
-    <Link className="icon" to={to}>
+    <a className="icon" href={link}>
       {logo}
-    </Link>
+    </a>
   );
 }
 
