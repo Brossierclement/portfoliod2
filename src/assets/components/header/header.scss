@@ -1,0 +1,12 @@
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  .email,
+  .link {
+    color: #202020;
+  }
+  .link {
+    text-decoration: none;
+  }
+}
