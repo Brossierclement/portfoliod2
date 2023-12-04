@@ -1,39 +1,85 @@
 [
   {
-    "id": 1,
-    "name": "Design",
-    "skill": [
+    "skills": [
       {
-        "id": "a",
-        "title": "Figma",
-        "logo": "/images/figma.svg"
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "name": "Front-end",
-    "skill": [
-      {
-        "id": "b",
-        "title": "JavaScript",
-        "logo": "/images/javascript.svg"
+        "id": 1,
+        "name": "Design",
+        "skill": [
+          {
+            "id": "a",
+            "title": "Figma",
+            "logo": "/images/figma.svg"
+          }
+        ]
       },
       {
-        "id": "c",
-        "title": "React",
-        "logo": "/images/react.svg"
+        "id": 2,
+        "name": "Front-end",
+        "skill": [
+          {
+            "id": "b",
+            "title": "JavaScript",
+            "logo": "/images/javascript.svg"
+          },
+          {
+            "id": "c",
+            "title": "React",
+            "logo": "/images/react.svg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Other",
+        "skill": [
+          {
+            "id": "d",
+            "title": "Vercel",
+            "logo": "/images/vercel.svg"
+          }
+        ]
       }
     ]
   },
   {
-    "id": 3,
-    "name": "Other",
-    "skill": [
+    "tools": [
       {
-        "id": "d",
-        "title": "Vercel",
-        "logo": "/images/vercel.svg"
+        "id": 1,
+        "name": "Design",
+        "skill": [
+          {
+            "id": "a",
+            "title": "Figma",
+            "logo": "/images/figma.svg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Front-end",
+        "skill": [
+          {
+            "id": "b",
+            "title": "JavaScript",
+            "logo": "/images/javascript.svg"
+          },
+          {
+            "id": "c",
+            "title": "React",
+            "logo": "/images/react.svg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Other",
+        "skill": [
+          {
+            "id": "d",
+            "title": "Vercel",
+            "logo": "/images/vercel.svg"
+          }
+        ]
       }
     ]
   }

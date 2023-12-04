@@ -1,22 +1,47 @@
+@import "../../colors.scss";
 .home {
+  color: $high-contrast-text;
   display: flex;
   flex-direction: column;
   height: 100vh;
   max-width: 1190px;
+  padding: 0 10px;
   width: 100%;
   .main {
     display: flex;
     flex: 1;
+    gap: 10px;
     width: 100%;
     .left {
       display: flex;
       flex: 1;
       flex-direction: column;
       justify-content: space-between;
+      .high {
+        h1 {
+          color: $high-contrast-text;
+        }
+        p {
+          color: $low-contrast-text;
+        }
+      }
       .medium {
+        flex: 1;
+        h1 {
+          text-align: center;
+        }
         .skills {
           display: flex;
           justify-content: space-between;
+        }
+      }
+      .down {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        a {
+          color: $high-contrast-text;
+          text-decoration: none;
         }
       }
     }

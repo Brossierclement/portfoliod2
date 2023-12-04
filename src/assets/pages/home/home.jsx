@@ -6,7 +6,7 @@ import Footer from "../../components/footer/footer";
 
 function Home() {
   const [data, setData] = useState();
-
+  // améliorer le fetch
   useEffect(() => {
     const dataFetch = async () => {
       const data = await (await fetch("/data.json")).json();
@@ -28,12 +28,32 @@ function Home() {
           </section>
           <section className="medium">
             <h1>Skills</h1>
-            <div className="skills">
-              {data?.map((item) => (
-                <Skill key={item.id} data={item} />
-              ))}
-            </div>
+            {data ? (
+              <div className="skills">
+                {data[0].skills.map((item) => (
+                  <Skill key={item.id} data={item} />
+                ))}
+              </div>
+            ) : (
+              <p>Loading...</p>
+            )}
           </section>
+          <div className="down">
+            <a href="https://github.com/Brossierclement" target="blank">
+              Github
+            </a>
+            /
+            <a href="https://twitter.com/Gulnyr_" target="blank">
+              Twitter
+            </a>
+            /
+            <a
+              href="https://www.linkedin.com/in/cl%C3%A9ment-brossier-a6b1292a3/"
+              target="blank"
+            >
+              Linkedin
+            </a>
+          </div>
           <Footer />
         </div>
         <section className="right"></section>
