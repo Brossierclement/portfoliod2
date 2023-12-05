@@ -10,7 +10,7 @@
   .main {
     display: flex;
     flex: 1;
-    gap: 10px;
+    gap: 50px;
     width: 100%;
     .left {
       display: flex;
@@ -23,20 +23,59 @@
         }
         p {
           color: $low-contrast-text;
+          .imp {
+            color: $solid-colors;
+            font-weight: 600;
+          }
         }
       }
       .medium {
+        display: flex;
         flex: 1;
-        h1 {
-          text-align: center;
-        }
-        .skills {
+        .medium-left {
           display: flex;
-          justify-content: space-between;
+          flex: 1;
+          gap: 20px;
+          h1 {
+            align-items: center;
+            display: flex;
+          }
+          .skills {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            justify-content: space-around;
+          }
+        }
+        .medium-right {
+          display: flex;
+          flex: 1;
+          flex-direction: column;
+          gap: 10px;
+          justify-content: center;
+          .navigation {
+            align-items: center;
+            cursor: pointer;
+            display: flex;
+            gap: 10px;
+            span {
+              border: 1px solid $high-contrast-text;
+              height: 0;
+              transition: width 0.1s ease-in;
+              width: 25px;
+            }
+            &:hover {
+              span {
+                width: 50px;
+              }
+            }
+          }
         }
       }
       .down {
+        align-items: center;
         display: flex;
+        flex: 0.5;
         gap: 10px;
         justify-content: center;
         a {
@@ -46,7 +85,30 @@
       }
     }
     .right {
+      align-items: center;
+      display: flex;
       flex: 1;
+      flex-direction: column;
+      height: 100vh;
+      overflow: scroll;
+      .about {
+        h1 {
+          text-align: end;
+        }
+        p {
+          color: $low-contrast-text;
+          text-align: end;
+        }
+      }
+      .projects {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .about {
+        flex: 1;
+      }
     }
   }
 }

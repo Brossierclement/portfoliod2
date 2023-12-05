@@ -42,44 +42,24 @@
     ]
   },
   {
-    "tools": [
+    "projects": [
       {
         "id": 1,
-        "name": "Design",
-        "skill": [
-          {
-            "id": "a",
-            "title": "Figma",
-            "logo": "/images/figma.svg"
-          }
-        ]
+        "name": "Argent Bank",
+        "title": "Application bancaire, pour gérer ses transactions",
+        "logo": "/images/bank.jpg"
       },
       {
         "id": 2,
-        "name": "Front-end",
-        "skill": [
-          {
-            "id": "b",
-            "title": "JavaScript",
-            "logo": "/images/javascript.svg"
-          },
-          {
-            "id": "c",
-            "title": "React",
-            "logo": "/images/react.svg"
-          }
-        ]
+        "name": "Kasa",
+        "title": "Application de location immobilière",
+        "logo": "/images/kasa.jpg"
       },
       {
         "id": 3,
-        "name": "Other",
-        "skill": [
-          {
-            "id": "d",
-            "title": "Vercel",
-            "logo": "/images/vercel.svg"
-          }
-        ]
+        "name": "Sophie Bluel",
+        "title": "Site référentiel d'une photographe professionnelle",
+        "logo": "/images/sophie.jpg"
       }
     ]
   }

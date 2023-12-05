@@ -1,0 +1,9 @@
+.project {
+  border-radius: 15px;
+  display: flex;
+  flex-grow: 1;
+  img {
+    object-fit: cover;
+    width: 100%;
+  }
+}
