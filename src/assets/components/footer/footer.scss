@@ -1,4 +1,7 @@
+@import "../../colors.scss";
 .footer {
+  border-top: 1px solid $high-contrast-text;
+  color: $high-contrast-text;
   .designed,
   .copyright {
     text-align: center;

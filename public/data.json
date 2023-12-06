@@ -47,19 +47,22 @@
         "id": 1,
         "name": "Argent Bank",
         "title": "Application bancaire, pour gérer ses transactions",
-        "logo": "/images/bank.jpg"
+        "logo": "/images/bank.jpg",
+        "about": "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback."
       },
       {
         "id": 2,
         "name": "Kasa",
         "title": "Application de location immobilière",
-        "logo": "/images/kasa.jpg"
+        "logo": "/images/kasa.jpg",
+        "about": "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback."
       },
       {
         "id": 3,
         "name": "Sophie Bluel",
         "title": "Site référentiel d'une photographe professionnelle",
-        "logo": "/images/sophie.jpg"
+        "logo": "/images/sophie.jpg",
+        "about": "Developed and styled interactive web apps for Apple Music, including the UI of Apple Music’s embeddable web player widget for in-browser user authorization and full song playback."
       }
     ]
   }
