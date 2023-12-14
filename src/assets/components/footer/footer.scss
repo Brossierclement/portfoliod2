@@ -1,9 +1,33 @@
 @import "../../colors.scss";
-.footer {
-  border-top: 1px solid $high-contrast-text;
-  color: $high-contrast-text;
-  .designed,
-  .copyright {
-    text-align: center;
+
+footer {
+  align-items: center;
+  // border-top: 1px solid white;
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  max-height: 54px;
+  min-height: 54px;
+  padding: 0 2rem;
+  .quote {
+    color: white;
+    margin: 0;
+  }
+  .links {
+    display: flex;
+    gap: 10px;
+    a {
+      color: white;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column;
+    .quote {
+      padding-top: 10px;
+      text-align: center;
+    }
   }
 }

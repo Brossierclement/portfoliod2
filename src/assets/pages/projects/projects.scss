@@ -1,0 +1,26 @@
+.projects {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(3, 250px);
+  justify-content: center;
+  padding: 5rem 5rem 12rem 5rem;
+}
+
+@media (max-width: 855px) {
+  .projects {
+    grid-template-columns: repeat(2, 275px);
+  }
+}
+
+@media (max-width: 635px) {
+  .projects {
+    grid-template-columns: repeat(1, 300px);
+  }
+}
+
+@media (max-width: 365px) {
+  .projects {
+    grid-template-columns: repeat(1, 90%);
+    padding: 5rem 1rem;
+  }
+}

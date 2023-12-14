@@ -1,17 +1,44 @@
 @import "../../colors.scss";
-.header {
+
+header {
   align-items: center;
+  backdrop-filter: blur(5px);
+  box-sizing: border-box;
   display: flex;
+  flex: 1;
   justify-content: space-between;
-  padding: 10px 0;
-  .email,
-  .link {
-    color: $high-contrast-text;
+  min-height: 54px;
+  padding: 1rem 2rem;
+  position: fixed;
+  transform: none;
+  width: 100%;
+  z-index: 1;
+  .logo {
+    color: white;
   }
-  .email {
-    margin: 0;
+  .navigation {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    a {
+      color: white;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .button {
+      padding: 5px;
+      min-width: 50px;
+    }
+    .my-projects {
+      border-left: 1px solid $primary-color;
+      padding-left: 10px;
+    }
   }
-  .link {
-    text-decoration: none;
+}
+
+@media (max-width: 374px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
   }
 }

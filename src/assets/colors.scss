@@ -1,6 +1,27 @@
-$app-background: #111111;
-$low-contrast-background: #222222;
-$high-contrast-text: #eeeeee;
-$low-contrast-text: #b4b4b4;
-$color-contrast-text: #70b8ff;
-$hover-states: #222222;
+// $primary-color: #fd9089;
+// $secondary-color: #e5b699;
+// $tertiary-color: #e9d1a9;
+// $quaternary-color: #9aacb5;
+// $quinary-color: #427ca2;
+
+$primary-color: #e0e2e8;
+$secondary-color: #b0c0d4;
+$tertiary-color: #5da5b3;
+$quaternary-color: #394054;
+$quinary-color: #1c1c1f;
+
+.cls {
+  color: rgb(112, 156, 168);
+  color: rgb(153, 136, 180);
+  color: rgb(224, 108, 79);
+  color: rgb(100, 125, 216);
+  color: rgb(184, 170, 63);
+}
+
+.cls {
+  color: rgb(20, 138, 170);
+  color: rgb(150, 110, 214);
+  color: rgb(224, 108, 79);
+  color: rgb(100, 125, 216);
+  color: rgb(212, 191, 25);
+}
